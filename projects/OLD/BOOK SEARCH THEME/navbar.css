@@ -1,0 +1,185 @@
+#navbar-section{
+  background: rgba(0,0,0,0.9)
+}
+.navbar-header{
+  color: #fff;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+.ss1{
+  color: red;
+  font-weight: bold;
+}
+.navbar-section2{
+  margin-left: 850px;
+}
+.navbar-anchor{
+  color: #fff;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+.navbar-anchor:hover{
+  background-color: #fff;
+  color: #333;
+}
+.aa1{
+  background-color: #333;
+  color: #fff;
+}
+/* full image section */
+.image-container{
+  color: #000;
+}
+.image-container img{
+  height: 700px;
+  width: 100%;
+}
+.text-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center h1{
+  font-weight: bold;
+}
+.btn-1{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+}
+/* what section */
+.container{
+  margin: 4% auto;
+}
+.container h1{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.container span{
+  color: #E91E63;
+}
+#icon{
+  width: 300px;
+  height: 350px;
+  margin: 1% auto;
+  padding: 30px;
+}
+@media (max-width:600px) {
+  #icon{
+    max-width: 600px;
+    height: 350px;
+  }
+}
+.what-text h2{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.btn-2{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 100px;
+  background-color: #E91E63;
+  color: #fff;
+  font-weight: bold;
+}
+/*abouta section */
+.about{
+  background-color: #263238;
+}
+.about-image{
+  padding: 100px 0px 70px 30px;
+}
+.about-image img{
+  max-width: 600px;
+  height: 350px;
+}
+.about-text {
+  padding: 130px 0px 70px 80px;
+  color: #fff;
+}
+.about-text h1{
+  font-weight: bold;
+}
+/*why section */
+.w-100{
+  padding: 30px;
+}
+.why-text h1{
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.why-text span{
+  color: #7CB342;
+}
+.why-img-section{
+  margin-left: 50px;
+}
+.why-img-section h4{
+  font-weight: bold;
+}
+.why-img-section span{
+  color: #7CB342;
+  font-size: 30px;
+}
+.why-image{
+  width: 50px;
+  height: 50px;
+}
+/*slide imagea section */
+.slide-image{
+  width: 500px;
+  height: 500px;
+}
+/*footer */
+footer{
+  height:auto;
+  background-color: #222;
+}
+footer a{
+  display: block;
+  color: #fff;
+}
+footer span{
+  color: #fff;
+}
+footer span:hover{
+  color: red;
+}
+footer img{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 20px;
+  float: left;
+}
+.wrapping{
+  margin: 50px;
+}
+.wrapping h4{
+  color: #fff;
+  padding-top: 20px;
+}
+.last-foot{
+  color: #fff;
+  padding: 50px 150px 50px 150px;
+}
+
+
+
+
+
+
+
+
+.col{
+  padding: 0px;
+}

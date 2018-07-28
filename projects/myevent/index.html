@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gravitas Event</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbar-fixed">
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo nav-logo">oktatech</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#speaker">SPEAKER</a></li>
+            <li><a href="#event">EVENT</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#query">QUERY</a></li>
+            <li><a href="#sponsor">SPONSER</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- mobile navbar -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#speaker">SPEAKER</a></li>
+    <li><a href="#event">EVENT</a></li>
+    <li><a href="#gallery">GALLERY</a></li>
+    <li><a href="#query">QUERY</a></li>
+    <li><a href="#sponsor">SPONSER</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+  </ul>
+
+  <!-- hero section -->
+  <section id="home" class="wrap">
+    <div class="center">
+      <div class="hero">
+        <h3 class="wrap-head">DESIGN & DEV CONFERENCE VIT</h3>
+        <div class="container">
+          <h4 class="wrap-h4">MARCH, 17th - 19th, 2018</h4>
+          <p class="wrap-para"> SJT-201 Ambedkar gallery VIT vellore, Tamilnadu</p>
+          <input id="create-btn" type="button" name="" value="REGISTER NOW" onclick="window.location='https://goo.gl/forms/8aM0O99pNVsVeng53';">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about us section  -->
+  <section id="about" class="section scrollspy">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m5">
+          <p class="about-head-1">About the Event</p>
+          <h4 id="about-head-2">How It All Started</h4>
+          <p id="about-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Lorem Ipsum passages.</p>
+          <a class="waves-effect pink darken-1 btn mybtn">Learn More</a>
+        </div>
+
+        <!-- gallery -->
+        <div class="col s12 m7 ">
+          <h4 class="video-head center">Video</h4>
+          <div class="video">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/qMYNRDx19EM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- workshop section -->
+  <section id="work" class="section center scrollspy work">
+    <div class="container">
+      <div class="row work-head">
+        <div class="col s12 m3">
+          <img src="icon/6.png" alt="">
+          <h3 class="work-demo">913</h3>
+          <p class="work-para">PARTICIPENTS</p>
+        </div>
+        <div class="col s12 m3">
+          <img src="icon/4.png" alt="">
+          <h3 class="work-demo">05</h3>
+          <p class="work-para">SPRAKERS</p>
+        </div>
+        <div class="col s12 m3">
+          <img src="icon/7.png" alt="">
+          <h3 class="work-demo">21</h3>
+          <p class="work-para">WORKSHOPS</p>
+        </div>
+        <div class="col s12 m3">
+          <img src="icon/8.png" alt="">
+          <h3 class="work-demo">14</h3>
+          <p class="work-para">SPONSORS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- speaker section -->
+  <section id="speaker" class="section scrollspy">
+    <div class="speaker-part container center">
+      <!-- <img src="icon/microphone.png" alt=""> -->
+      <h4 class="center">Awesome Speakers</h4>
+      <p class="center">Listen, Learn, Get inspired.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m3">
+          <div class="card z-depth-5 speaker-image zoom">
+            <div class="card-image">
+              <img class="" src="image/1.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <p>
+                <span class="name">Edward C. Conner</span><br>
+                <span class="pro">Designer</span>
+              </p>
+            </div>
+            <div class="card-social">
+              <a href="#" class="white-text">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card z-depth-5 zoom">
+            <div class="card-image">
+              <img src="image/2.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <p>
+                <span class="name">Avaidi Johnson</span><br>
+                <span class="pro">Web Developer</span>
+              </p>
+            </div>
+            <div class="card-social">
+              <a href="#" class="white-text">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card z-depth-5 zoom">
+            <div class="card-image">
+              <img src="image/thumb3.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <p>
+                <span class="name">David Aviato</span><br>
+                <span class="pro">Android Developer</span>
+              </p>
+            </div>
+            <div class="card-social">
+              <a href="#" class="white-text">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m3">
+          <div class="card z-depth-5 zoom">
+            <div class="card-image">
+              <img src="image/4.jpg" alt="">
+            </div>
+            <div class="card-content">
+              <p>
+                <span class="name">Mark Solemon</span><br>
+                <span class="pro">Engineer/ Designer</span>
+              </p>
+            </div>
+            <div class="card-social">
+              <a href="#" class="white-text fb">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+              <a href="#" class="white-text">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section follow -->
+  <section class="section section-follow white-text center follow">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>follow oktatech</h4>
+          <p>Follow us on social media for special offer</p>
+          <a href="#" class="white-text">
+              <i class="fab fa-facebook fa-4x"></i>
+            </a>
+          <a href="#" class="white-text">
+              <i class="fab fa-twitter fa-4x"></i>
+            </a>
+          <a href="#" class="white-text">
+              <i class="fab fa-instagram fa-4x"></i>
+            </a>
+          <a href="#" class="white-text">
+              <i class="fab fa-google-plus fa-4x"></i>
+            </a>
+          <a href="#" class="white-text">
+              <i class="fab fa-pinterest fa-4x"></i>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- event section -->
+  <section id="event" class="section scrollspy">
+    <div class="container center">
+      <div class="event-head">
+        <img src="icon/event-1.png" alt="">
+        <h3>Event Programme</h3>
+        <p>
+          <span id="event-head-para-1">Full-day Events with Awesome Speakers</span><br>
+          <span id="event-head-para-2">Don't Miss A Thing</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="container center">
+      <div class="event-btn">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Day One</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Day Two</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Day Three</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="London" class="tabcontent">
+        <h5 class="event-date center">Friday, 7th March</h5>
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/10.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">09:30 - 01:00 PM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/tech.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7 event-doc">
+            <p>
+              <span class="event-content">Technical Experiences to All</span><br>
+              <span class="event-para">Throw myself down teems with vapour around me,
+                  and the meridian sun strikes the upper surface of the impenetrable
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">01:00 - 02:00 PM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/lunch.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Lunch Break</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">02:00 - 06:00 PM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/9.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">designers: cultures of creativity</span><br>
+              <span class="event-para">Plaid fashion axe semiotics skateboard, try-hard
+                 food truck aesthetic biodiesel exercitation. Accusamus VHS Wes Anderson
+                 Banksy food truck vero.</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <h4 class="event-date center">Saturday, 8th March</h4>
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/10.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/tech.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/lunch.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/9.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+        <h4 class="event-date center">Sunday, 9th March</h4>
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/10.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/tech.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/lunch.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="row event-row">
+          <div class="col s12 m3 center">
+            <p>
+              <span class="event-time">08:00 - 09:30 AM</span>
+            </p>
+          </div>
+          <div class="col s12 m2 center">
+            <p>
+              <span><img class="event-image"src="icon/9.png" alt=""></span>
+            </p>
+          </div>
+          <div class="col s12 m7">
+            <p>
+              <span class="event-content">Registration</span><br>
+              <span class="event-para">Pick up your name badge and goodie bag</span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- newsletter section -->
+  <section id="news">
+    <div class="container">
+      <div class="newsletter">
+        <div class="row">
+          <div class="col s12 m4 center">
+            <p>
+              <span id="news-para">Be the first to hear about our updates</span><br>
+              <span id="news-head">Subscribe Newsletter</span>
+            </p>
+          </div>
+          <div class="col s12 m8 center">
+            <p>
+              <input id="news-input" type="text" name="" value="">
+              <input id="news-btn" type="button" name="" value="submit">
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section gallery -->
+  <section id="gallery" class="section section-gallery scrollspy">
+    <div class="container">
+      <h4 class="center" style="padding-top:60px;padding-bottom:20px;">
+        <span class="teal-text">Photo </span>Gallery
+      </h4>
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="image/resort1.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort2.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort3.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort1.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+      </div>
+      <!-- row 2 -->
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="image/resort2.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort3.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort1.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort2.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+      </div>
+
+      <!-- row 3 -->
+      <div class="row">
+        <div class="col s12 m3">
+          <img src="image/resort3.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort1.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort2.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+
+        <div class="col s12 m3">
+          <img src="image/resort1.jpg" class="materialboxed responsive-img" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- query section -->
+  <section id="query" class="section scrollspy">
+    <div class="container myquery">
+      <div class="center" id="query-section">
+        <img src="icon/query-2.png" alt="">
+        <h4>Query Section</h4>
+        <p>If You have any Query Contact Us</p>
+      </div>
+      <div class="row">
+        <div class="col s12 m4 center">
+          <span class="query-image">
+              <img src="icon/msg-1.png" alt="">
+            </span>
+          <h4 class="query-head-2">General Queries</h4>
+          <p class="query-para-2">contact-query@eventime.co.in</p>
+        </div>
+        <div class="col s12 m4 center">
+          <span class="query-image">
+              <img src="icon/check-2.png" alt="">
+            </span>
+          <h4 class="query-head-2">Registration Queries</h4>
+          <p class="query-para-2">support-ticket@evntime.co.us</p>
+        </div>
+        <div class="col s12 m4 center">
+          <span class="query-image">
+              <img src="icon/call.png" alt="">
+            </span>
+          <h4 class="query-head-2">Event Organiser</h4>
+          <p class="query-para-2">+91 7866005340</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- sponsers section -->
+  <section id="sponsor" class="section scrollspy">
+    <div class="container">
+      <div class="sponsor-head center">
+        <img class="center" src="icon/sponsor.png" alt="">
+        <h4>Sponsors & Partners</h4>
+        <p>They helping us make this event possible.</p>
+      </div>
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/1.png" class="center costomer-image-1" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/2.png" class="center costomer-image-3" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/3.png" class="center costomer-image-3" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/4.png" class="center costomer-image-3" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/5.png" class="center costomer-image-1" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/6.png" class="center costomer-image-1" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/7.png" class="center costomer-image-2" alt="">
+          </div>
+        </div>
+        <div class="col s12 m3">
+          <div class="cont center">
+            <img src="sponsors/8.png" class="center costomer-image-3" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="sponsor-btn center">
+        <input id="sbtn" type="button" name="" value="BECOME OUR SPONSER">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <section id="contact" class="section scrollspy">
+    <footer class="foot">
+      <div class="container center">
+        <div class="row">
+          <div class="col s12 m3">
+            <h3 class="foot-heading">oktatech</h3>
+            <p class="foot-para">visit www.oktatech.com</p>
+          </div>
+          <div class="col s12 m3">
+            <h3 class="foot-head">Social</h3>
+            <ul class="foot-ul">
+              <li>
+                <a href="#" class="white-text">
+                <i class="fab fa-facebook fa-2x"></i>
+              <span class="foot-logo">facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="white-text">
+            <i class="fab fa-twitter fa-2x"></i>
+
+              <span class="foot-logo">github</span>
+            </a></li>
+              <li>
+                <a href="#" class="white-text">
+            <i class="fab fa-github fa-2x"></i>
+              <span class="foot-logo">twitter</span>    </a></li>
+              <li>
+                <a href="#" class="white-text">
+            <i class="fab fa-google-plus fa-2x"></i>
+              <span class="foot-logo">google plus</span>    </a></li>
+            </ul>
+          </div>
+          <div class="col s12 m3">
+            <h3 class="foot-head">More Info</h3>
+            <ul class="foot-ul">
+              <li>INTEGRATE WITH OKTA</li>
+              <li>blog</li>
+              <li>CHANGE LOG</li>
+              <li>3RD PARTY NOTES</li>
+            </ul>
+          </div>
+          <div class="col s12 m3">
+            <h4 class="foot-head">Contact & Legal</h4>
+            <ul class="foot-ul">
+              <li>CONTACT SALES</li>
+              <li>CONTACT SUPPORT</li>
+              <li>TERMS & CONDITIONS</li>
+              <li>PRIVACY POLICY</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- copyright section -->
+  <footer class="copyright">
+    <div class="row">
+      <div class="col s12">
+        <div class="container center">
+          <span class="copyright-span">Copyright (c) 2018 oktatech All Rights Reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <script src="main.js">
+  </script>
+</body>
+
+</html>

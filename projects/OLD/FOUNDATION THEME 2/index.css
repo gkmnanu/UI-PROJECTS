@@ -1,0 +1,110 @@
+/* hero section */
+/* hero section */
+.hero-1{
+  padding: 80px 20px;
+  height: auto;
+}
+.hero-2{
+  background-color: #000;
+  padding: 80px 20px;
+  height: auto;
+  color: #fff;
+}
+/* wrap sectio */
+.wrap{
+  width: 90%;
+  margin: 0 auto;
+}
+.wrap h3{
+  text-align:center;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  color: #E91E63;
+  font-weight: bold;
+}
+.wrap a{
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: bold;
+  color:#448AFF;
+}
+/* what we do section */
+.what{
+  background-color: #f0f0f0;
+}
+#what-heading{
+  padding: 50px 0 30px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #E91E63;
+  font-family: sans-serif;
+}
+.what-section-1{
+  margin: 40px 40px 50px 100px;
+}
+.what-section-1 h4{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.what-section-2{
+  margin: 40px 100px 50px 40px;
+}
+.what-section-2 h4{
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* contact us section */
+.contact-section-1{
+  margin: 20px 0 40px 300px;
+}
+.contact-section-2{
+  margin: 40px 200px 40px 0;
+}
+.tt{
+  border-radius: 5px;
+  padding: 20px 10px;
+}
+.tt-2{
+  border-radius: 5px;
+  padding-top: 0px;
+  height: 100px;
+}
+.bttn{
+  width: 100px;
+  height: 50px;
+  background-color: #F50057;
+  color: #fff;
+  border-radius: 20px;
+}
+.bttn:hover{
+  background-color: #009688;
+  color: #fff;
+}
+.wrapping{
+  margin: 50px;
+}
+.wrapping h4{
+  color: #fff;
+  margin-top: 20px;
+}
+footer{
+  height: 300px;
+  background-color: #222;
+}
+footer a{
+  display: block;
+  color: #fff;
+}
+footer span{
+  color: #fff;
+}
+footer span:hover{
+  color: red;
+}
+footer img{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 20px;
+  float: left;
+}

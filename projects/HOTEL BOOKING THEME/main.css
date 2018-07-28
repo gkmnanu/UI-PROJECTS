@@ -1,0 +1,126 @@
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 60% !important;
+  border: #f4f4f4 3px solid !important;
+  border-radius: 15px !important;
+}
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+.hotel-name{
+  margin-top: 0.5em;
+}
+
+/* service section */
+.service{
+  background-color: WhiteSmoke;
+  margin-top: 0px;
+}
+.service-head{
+  color: teal;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.service-para{
+  font-size: 20px;
+  color: grey;
+  font-style: comic ;
+  padding-bottom: 20px;
+}
+
+/* rooms info section */
+.rooms-info{
+  background-color: WhiteSmoke;
+  color: black;
+}
+.rooms-info-head{
+  font-weight: bold;
+  color: #d81b60;
+  padding-top: 20px;
+}
+.rooms{
+  background-color: WhiteSmoke;
+  margin-top: 0px;
+}
+.rooms-2{
+  background-color: #e0e0e0;
+  margin-top: 0px;
+}
+.rooms-head{
+  font-weight: bold;
+  padding-top: 20px;
+}
+.rooms-para{
+  font-size: 20px;
+  color: grey;
+  font-style: comic ;
+  padding-bottom: 20px;
+}
+.myh5{
+  margin-top: 0px;
+  font-weight: bold;
+}
+.photo{
+  margin-left: 40px;
+}
+.photo-head{
+  margin-bottom: 40px;
+}
+/* why choose us section */
+.why{
+  background-color: #162541;
+}
+.why-heading{
+  padding-top: 30px;
+  padding-bottom: 25px;
+  color: white;
+}
+.why-head{
+  color: white;
+}
+.why-para{
+  color: WhiteSmoke;
+  padding-bottom: 40px;
+  padding-left: 15%;
+  width: 85%;
+}
+.about-head{
+  margin-bottom: 40px;
+}
+.video-head{
+  margin-left: 155px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+/* follow section */
+.follow{
+  background-color: #162541;
+}
+
+/* ticket */
+.ticket{
+  background-color: WhiteSmoke;
+}
+.ticket-head{
+  padding-top: 35px;
+  padding-bottom: 20px;
+  color: grey;
+}
+/* tabs section */
+.tabs-head{
+  font-weight: bold;
+}
+/* testimonials */
+.test-head{
+  color: white;
+}
+.test-h4{
+  font-size: 27px;
+  font-weight: 300;
+  font-style: italic;
+}
+.test-h6{
+  font-weight: bold;
+}

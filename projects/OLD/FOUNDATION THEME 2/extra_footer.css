@@ -1,0 +1,45 @@
+.hh5{
+  text-align: center;
+  color: white;
+  font-family: serif;
+  font-size: 1.8em;
+  padding-top: 10px;
+}
+.f p{
+  padding: 1px 1px 1px 1px;
+  color: #BDBDBD;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  font-size: 0.8em;
+}
+.f h6{
+  padding: 1px 1px 1px 1px;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.foot{
+  background-color: #292e31;
+}
+.f img{
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.f a{
+  text-decoration: underline;
+  padding: 1px 1px 1px 1px;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  color: #BDBDBD;
+  font-weight: bold;
+}
+.last-foot{
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  height: 90px;
+  padding-top: 10px;
+}

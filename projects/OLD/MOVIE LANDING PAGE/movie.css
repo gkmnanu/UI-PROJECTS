@@ -1,0 +1,86 @@
+body{
+  background-color: grey;
+}
+/* movie name section */
+.name{
+  background-color: #009688;
+  width: 500px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+/*quality section */
+.quality{
+  color: #fff;
+  background-color: #009688;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+/* movie image section */
+.movie-image{
+  padding: 40px 30px;
+  background-color: #333;
+  margin: 20px;
+}
+.movie-image img{
+  width: 500px;
+  height: 500px;
+}
+span{
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+}
+p{
+  color: #E0E0E0;
+}
+h3{
+  color: #fff;
+  margin: 10px;
+}
+.story{
+  width: 500px;
+}
+#rtn-tmt{
+  background-color: red;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+#imdb{
+  background-color: #FFD600;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+/* video section */
+.movie-video{
+  padding-top: 0px;
+}
+.video-section{
+  width: 730px;
+  height: 650px;
+}
+.section{
+  padding-top: 60px;
+  padding-left: 20px
+}
+.btn{
+  background-color: #1DE9B6;
+  padding: 20px;
+  color: #000;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn:hover{
+  background-color: #CDDC39;
+  color: #000;
+}
